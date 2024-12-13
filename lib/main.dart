@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:voiceofvictim_branx/screens/loginscreen_page.dart';
 import 'package:voiceofvictim_branx/screens/registrationscreen_page.dart';
 
 void main() {
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: RegistrationscreenPage(),
+      home: LoginscreenPage(),
     );
   }
 }
